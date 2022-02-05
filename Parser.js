@@ -23,8 +23,11 @@ function getFiles(){
         // try to get the text file
         const file = e.target.result;
         const lines = lines.split(/\r\n|\n/);
-        if lines.includes(/* midterm, exam, other stuff*/){
-            parse_stuff()
+        for (let i = 0; i < lines.length; i++){
+            let line = lines[i];
+            if (line.includes("Exam") || line.includes("Midterm")){
+                convertLine(line);
+            }
         }
         // add for loop to check if need to parse
     };
@@ -35,8 +38,11 @@ function getFiles(){
     reader.readAsText(files)
 }
 
-function parse_stuff(){
-    
+function convertLine(line){
+    let words = line.split(" ");
+    for (let i = 0; i < words.length; i++){
+        
+    }
 }
 
 // series of helper functions to help me parse 
