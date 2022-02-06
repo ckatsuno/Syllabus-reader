@@ -70,17 +70,24 @@ We use [Semantic Versioning](http://semver.org/) for versioning. For the version
 available, see the [tags on this
 repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
  -->
- 
+## Built With
+  - JavaScript
+  - HTML
+  - CSS
+  - Google Cloud Platform
+  - Google Calendar API
+
+
 ## Authors
 
-  - **Rosaline Zhu* - *Lead UI Designer* -
+  - **Rosaline Zhu** - *Lead UI Designer* -
     [Designer](https://github.com/rosalinezhu)
-  - **Caroline Qi* - *Lead API Developer* -
-    [Develoepr](https://github.com/catherine-qi)
-  - **Coo Katsuno* - *Back-end Developer* -
+  - **Caroline Qi** - *Lead API Developer* -
+    [Developer](https://github.com/catherine-qi)
+  - **Coo Katsuno** - *Back-end Developer* -
     [Developer](https://github.com/ckatsuno)
-  - **Stanley Araki* - *Lead Back-end Developer* -
-    [Develoepr](https://github.com/StanleyAraki)
+  - **Stanley Araki** - *Lead Back-end Developer* -
+    [Developer](https://github.com/StanleyAraki)
   
 ## Acknowledgments
 
