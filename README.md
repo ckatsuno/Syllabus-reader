@@ -1,6 +1,6 @@
 # beeorganized.tech
 
-beeorganized.tech is a website that allows users to automatically convert events in files(like your syllabus!) to an event on your google calendar! Just drop in the file you want to parse, and our algorithm will automatically detect the event to add! Users will then be given the option to confirm the addition to the calendar, or make edits to it!
+beeorganized.tech is a website that allows users to automatically convert events in files (like your syllabus!) to an event on your Google Calendar! Just drop in the file you want to parse, and our algorithm will automatically detect the event to add! Users will then be given the option to confirm the addition to the calendar, or make edits to it!
 
 <!-- Initially appeared on
 [gist](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2). But the page cannot open anymore so that is why I have moved it here.
@@ -82,12 +82,20 @@ repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
 
   - **Rosaline Zhu** - *Lead UI Designer* -
     [Designer](https://github.com/rosalinezhu)
-  - **Caroline Qi** - *Lead API Developer* -
+  - **Catherine Qi** - *Lead API Developer* -
     [Developer](https://github.com/catherine-qi)
   - **Coo Katsuno** - *Back-end Developer* -
     [Developer](https://github.com/ckatsuno)
   - **Stanley Araki** - *Lead Back-end Developer* -
     [Developer](https://github.com/StanleyAraki)
+    
+## Project Challenges
+
+This section is to document the project's challenges, mainly for submission at Hack(Her)413! Our original plan was to implement a Chrome Extension with the same functionality as our this current project, but there were many difficulties in connecting the Google Calendar API to our extension. Even after registering as a Chrome Web Store Developer, obtaining a valid OAuth2.0 client ID, and the appropriate API key as required by the API, our extension still struggled in usinig the Google Calendar API to add events onto user's calendar. After debugging for an entire night, we decided to migrate to a webserver in hopes that it would allow us to use the API better. However, we did not have enough time to fully configure everything fully.
+
+Some of our members are not familiar with GitHub, so the documentation of the project is not the most well kept. We were much focused on trying to debug than document.
+
+Overall, we are most satisfied with our parser. Hack(Her)413 taught us many new experiences with full stack, and connecting front-end with back-end. We hope that we can continue to improve this project so that it may end up in a state we are totally satisfied with!
   
 ## Acknowledgments
 
