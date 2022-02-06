@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name= "viewport" content= "width=device-width, initial-scale = 1.0">
+    <title>Document</title>
+</head>
+<style type="text/css">
+    body {
+        width: 300px;
+        height: 400px;
+        overflow: hidden;
+        background: white;
+        text-align: left;
+    }
+
+    h1{
+        font-family: "Times New Roman", Times, serif;
+        font-size: 20px;
+        text-align: center;
+    }
+    p{
+        font-family: "Times New Roman", Times, serif;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    label{
+        background-color: #637dd2;
+        color: white;
+        padding: .5rem;
+        font-family: 'Times New Roman', Times, serif;
+        border-radius: .3rem;
+        cursor: pointer;
+    }
+    ul {
+    position: relative;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1.2em;
+    }
+    ul li:before {
+    content: "✿ ";
+    position: relative;
+    left: 0;
+    }
+
+
+
+</style>
+<body>
+    <h1 style="text-align:center">
+        Hello! Welcome to Syllabus Scanner
+    </h1>
+    <br>
+    <ul>
+        <li>Upload the syllabus you would like to scan!</li><br>
+        <li>All events with a date from your syllabus will selected and put in a list! </li><br>
+        <li>From that list you will be able to pick and customize the events. </li><br>
+        <li>After you are satisfied, it will be added to Google Calendar!</li><br>
+    </ul>
+    <br>
+    <form action="/action_page.php" style="text-align:center">
+        <input type="file" id="myFile" name="filename" hidden/>
+        <label for="myFile"> Choose File </label>
+        <br>
+        <br>
+        <input type="submit" id="submitButton" hidden/>
+        <label for="submitButton"> submit </label>
+
+      </form>
+</body>
+</html>
