@@ -1,7 +1,7 @@
 let result = [];
 
-document.getElementById('input')
-    .addEventListener('change', getFiles);
+document.getElementById('submitButton')
+    .addEventListener('click', getFiles);
 
 function get_array(){
     return result;
@@ -19,7 +19,7 @@ function getFiles(){
     reader.onload = (e) => {
         // try to get the text file
         const file = e.target.result;
-        const lines = lines.split(/\r\n|\n/);
+        const lines = file.split(/\r\n|\n/);
         for (let i = 0; i < lines.length; i++){
             let line = lines[i];
             if (line.match("[0-9]{2}(/-.)[0-9](2)") != null){
