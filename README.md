@@ -8,7 +8,7 @@ beeorganized.tech is a website that allows users to automatically convert events
  
 ## Getting Started
 
-Access our website using this link: 
+Access our website using this link: beeorganized.tech
 
 Drop some files and enjoy!
 
@@ -100,6 +100,5 @@ Overall, we are most satisfied with our parser. Hack(Her)413 taught us many new 
 ## Acknowledgments
 
   - StackOverflow
-  - Stress
   - Manning CICS
   - Hack(Her)413
